@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 const appConstants = {
   // apiBaseURL: ' http://localhost:3030/api/',
-  apiBaseURL: 'https://patientpoint-backend.onrender.com',
+  apiBaseURL: 'https://patientpoint-backend.onrender.com/api/',
   localStorage: {
     tokenKey: 'token',
     refreshTokenKey:'refreshToken',
