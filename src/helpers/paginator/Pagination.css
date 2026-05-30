@@ -1,0 +1,80 @@
+.btn-color-second {
+  background-color: #EFF3F8 !important;
+  color: #1f2a5d !important;
+  height: 36px;
+}
+
+/* Pagination css */
+.pagination {
+  --bs-pagination-active-bg: #1f2a5d;
+  --bs-pagination-active-border-color: #ffffff;
+}
+
+
+.btn-color-first {
+  background-color: #22046B !important;
+  color: #EFF3F8 !important;
+  margin-right: 10px;
+  margin-left: 10px !important;
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  font-size: 15px;
+  height: 36px;
+
+
+}
+
+.count-btn {
+  background: #EFF3F8 !important;
+  border: none !important;
+  color: #93A9DD !important;
+
+}
+
+.page-item-line {
+  height: 25px;
+  border-right: 3px solid #93A9DD ;
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: -5px;
+  left: 35px;
+  
+
+}
+
+
+.page-item-line-second {
+  height: 25px;
+  border-right: 2px solid #93A9DD;
+  position: absolute;
+  margin-bottom: 10px;
+  bottom: -5px;
+  right: 35px;
+}
+
+.count-btn.active,
+.active>.count-btn {
+  line-height: 2px;
+  border: 6px solid #eff3f8 !important;
+  height: 50%;
+  padding: 12.5px;
+  background-color: #22046B !important;
+  color: white !important;
+}
+
+.count-btn:focus {
+  box-shadow: none !important
+}
+
+.second-arrow {
+  font-size: 25px;
+  line-height: 26px;
+  color: #22046B !important;
+}
+
+.first-arrow {
+  font-size: 30px;
+  line-height: 19px;
+}
